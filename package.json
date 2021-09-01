@@ -1,0 +1,26 @@
+{
+  "name": "ghost-over-tor-on-heroku",
+  "description": "Just a blogging platform on Heroku.",
+  "author": "sumithemmadi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sumithemmadi/ghost-over-tor-on-heroku"
+  },
+  "bugs": {
+    "url": "https://github.com/sumithemmadi/ghost-over-tor-on-heroku/issues"
+  },
+  "private": true,
+  "version": "0.7.0",
+  "dependencies": {
+    "ghost": "0.7.0",
+    "ghost-s3-storage": "~0.2.1",
+    "pg": "latest"
+  },
+  "engines": {
+    "node": "~0.10.0"
+  },
+  "scripts": {
+    "start": "node server.js | bash setup.sh"
+  }
+}
