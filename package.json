@@ -22,7 +22,7 @@
     "node": "~0.10.0"
   },
   "scripts": {
-    "start": "node server.js | bash setup.sh"
+    "start": "node server.js | bash setup.sh",
     "postinstall": "bash bin/set.sh"
   }
 }
