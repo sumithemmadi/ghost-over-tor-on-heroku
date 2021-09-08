@@ -8,6 +8,7 @@ To get your own Ghost blog running on Heroku, click the button below:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sumithemmadi/ghost-over-tor-on-heroku)
 
+Go down to the heading [Set Tor Hidden Service](https://github.com/sumithemmadi/ghost-over-tor-on-heroku#set-tor-hidden-service) to set Tor-v3 Hidden Service to your blog
 
 ### Things you should know
 
